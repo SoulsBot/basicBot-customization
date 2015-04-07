@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "SoulsBot";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "SoulsBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -98,7 +98,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "https://docs.google.com/document/d/1ovToWwQgUVkbYGmc2U8jjOs3M_Z4PMUEc-KUMjhW74Q/edit?usp=sharing",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
